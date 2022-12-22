@@ -83,4 +83,16 @@
     expected-result: |
       отображается товар добавленный в корзину
       
-      
+- summary: |
+      Проверка доступности сайта на мобильном устройстве
+    requirement: |
+      При открытии сайта на мобильном устройстве отображаетс сайт
+    prerequisites: |
+      мобильный телефон
+      открыть сайт https://hexlet-products-store.vercel.app/
+    test-data: |
+      сайт https://hexlet-products-store.vercel.app/
+    steps:
+      - открыть сайт https://hexlet-products-store.vercel.app/
+    expected-result: |
+      отображается сайт https://hexlet-products-store.vercel.app/
