@@ -139,3 +139,16 @@
     expected-result: |
       отображается сайт https://hexlet-products-store.vercel.app/
       
+- summary: |
+      Проверка использует ли сайт протокол HTTPS
+    requirement: |
+      При открытии сайта в строке браузера URL начитается с HTTPS
+    prerequisites: |
+      открыть сайт hexlet-products-store.vercel.app/
+    test-data: |
+      сайт hexlet-products-store.vercel.app/
+    steps:
+      - открыть сайт hexlet-products-store.vercel.app/
+    expected-result: |
+      отображается сайт https://hexlet-products-store.vercel.app/
+      
