@@ -152,3 +152,17 @@
     expected-result: |
       отображается сайт https://hexlet-products-store.vercel.app/
       
+- summary: |
+      Проверка возможности оормить заказ
+    requirement: |
+      При нажатии на кнопку "Оформить заказ" в Корзине появляется сообщение о успешном оформлении
+    prerequisites: |
+      открыть сайт hexlet-products-store.vercel.app/
+    test-data: |
+      сайт hexlet-products-store.vercel.app/
+    steps:
+      - Нажать "В корзину" на карточке у любого товара
+      - В верхней правой части сайта нажать кнопку "Корзина"
+      - Нажать кнопку "Оформить заказ"
+    expected-result: |
+      отображается сообщение о успешном оформлении заказа
