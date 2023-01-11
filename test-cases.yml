@@ -84,7 +84,7 @@
       отображается товар добавленный в корзину
       
   - summary: |
-      Верстка отображается корректно на мобильном устройстве
+      Проверка отображения сайта на мобильном устройстве
     requirement: |
       При открытии сайта на мобильном устройстве отображаетс сайт
     prerequisites: |
@@ -96,12 +96,12 @@
     steps:
       - открыть сайт https://hexlet-products-store.vercel.app/
     expected-result: |
-      Верстка сайта https://hexlet-products-store.vercel.app/ отображается корректно
+      Сайт https://hexlet-products-store.vercel.app/ отображается корректно
       
   - summary: |
-      Верстка отображается корректно в браузере Mozila Firefox
+      Проверка отображения сайта в браузере Mozila Firefox
     requirement: |
-      При открытии сайта на в браузере Mozila Firefox отображаетс сайт
+      При открытии сайта в браузере Mozila Firefox отображаетс сайт
     prerequisites: |
       браузер Mozila Firefox
       открыть сайт https://hexlet-products-store.vercel.app/
@@ -110,12 +110,12 @@
     steps:
       - открыть сайт https://hexlet-products-store.vercel.app/
     expected-result: |
-      Верстка сайта https://hexlet-products-store.vercel.app/ отображается корректно
+      Сайт https://hexlet-products-store.vercel.app/ отображается корректно
       
   - summary: |
-      Верстка отображается корректно в браузере Opera
+      Проверка отображения сайта в браузере Opera
     requirement: |
-      При открытии сайта на в браузере Opera отображаетс сайт
+      При открытии сайта в браузере Opera отображаетс сайт
     prerequisites: |
       браузер Opera
       открыть сайт https://hexlet-products-store.vercel.app/
@@ -124,12 +124,12 @@
     steps:
       - открыть сайт https://hexlet-products-store.vercel.app/
     expected-result: |
-      Верстка сайта https://hexlet-products-store.vercel.app/ отображается корректно
+      Сайт https://hexlet-products-store.vercel.app/ отображается корректно
       
   - summary: |
-      Верстка отображается корректно в браузере Microsoft Edge
+      Проверка отображения сайта в браузере Microsoft Edge
     requirement: |
-      При открытии сайта на в браузере Microsoft Edge отображаетс сайт
+      При открытии сайта в браузере Microsoft Edge отображаетс сайт
     prerequisites: |
       браузер Microsoft Edge
       открыть сайт https://hexlet-products-store.vercel.app/
@@ -138,7 +138,7 @@
     steps:
       - открыть сайт https://hexlet-products-store.vercel.app/
     expected-result: |
-      Верстка сайта https://hexlet-products-store.vercel.app/ отображается корректно
+      Сайт https://hexlet-products-store.vercel.app/ отображается корректно
       
   - summary: |
       Проверка возможности оформить заказ
