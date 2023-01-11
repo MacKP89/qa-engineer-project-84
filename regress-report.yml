@@ -25,19 +25,19 @@ test-cases:
     status: pass
 
   - summary: |
-      Отображение сайта на мобильном устройстве
+      Верстка отображается корректно на мобильном устройстве
+    status: fail
+
+  - summary: |
+      Верстка отображается корректно в браузере Mozila Firefox
     status: pass
 
   - summary: |
-      Отображение сайта в браузере Mozila Firefox
+      Верстка отображается корректно в браузере Opera
     status: pass
 
   - summary: |
-      Отображение сайта в браузере Opera
-    status: pass
-
-  - summary: |
-      Отображение сайта в браузере Microsoft Edge
+      Верстка отображается корректно в браузере Microsoft Edge
     status: pass
 
   - summary: |
@@ -55,14 +55,6 @@ test-cases:
   - summary: |
       При примененни фильтра страница не обновлется
     status: pass
-
-  - summary: |
-      Названия брендов в фильтре соответствуют тому, как пишут сами бренды
-    status: fail
-
-  - summary: |
-      Проверка дублей в назвинии брендов
-    status: fail
 
   - summary: |
       Возможность поиска бренда, при вводе в строке поиска названия бренда
