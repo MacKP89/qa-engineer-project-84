@@ -84,7 +84,7 @@
       отображается товар добавленный в корзину
       
   - summary: |
-      Отображение сайта на мобильном устройстве
+      Верстка отображается корректно на мобильном устройстве
     requirement: |
       При открытии сайта на мобильном устройстве отображаетс сайт
     prerequisites: |
@@ -96,10 +96,10 @@
     steps:
       - открыть сайт https://hexlet-products-store.vercel.app/
     expected-result: |
-      отображается сайт https://hexlet-products-store.vercel.app/
+      Верстка сайта https://hexlet-products-store.vercel.app/ отображается корректно
       
   - summary: |
-      Отображение сайта в браузере Mozila Firefox
+      Верстка отображается корректно в браузере Mozila Firefox
     requirement: |
       При открытии сайта на в браузере Mozila Firefox отображаетс сайт
     prerequisites: |
@@ -110,10 +110,10 @@
     steps:
       - открыть сайт https://hexlet-products-store.vercel.app/
     expected-result: |
-      отображается сайт https://hexlet-products-store.vercel.app/
+      Верстка сайта https://hexlet-products-store.vercel.app/ отображается корректно
       
   - summary: |
-      Отображение сайта в браузере Opera
+      Верстка отображается корректно в браузере Opera
     requirement: |
       При открытии сайта на в браузере Opera отображаетс сайт
     prerequisites: |
@@ -124,10 +124,10 @@
     steps:
       - открыть сайт https://hexlet-products-store.vercel.app/
     expected-result: |
-      отображается сайт https://hexlet-products-store.vercel.app/
+      Верстка сайта https://hexlet-products-store.vercel.app/ отображается корректно
       
   - summary: |
-      Отображение сайта в браузере Microsoft Edge
+      Верстка отображается корректно в браузере Microsoft Edge
     requirement: |
       При открытии сайта на в браузере Microsoft Edge отображаетс сайт
     prerequisites: |
@@ -138,7 +138,7 @@
     steps:
       - открыть сайт https://hexlet-products-store.vercel.app/
     expected-result: |
-      отображается сайт https://hexlet-products-store.vercel.app/
+      Верстка сайта https://hexlet-products-store.vercel.app/ отображается корректно
       
   - summary: |
       Проверка возможности оформить заказ
@@ -200,32 +200,6 @@
       - поставить галочку фильтра напротив "Apple"
     expected-result: |
       отображает товары данной категории без перезагрузки страницы
-
-  - summary: |
-      Названия брендов в фильтре соответствуют тому, как пишут сами бренды
-    requirement: |
-      Сравнить на корректность названия всех брендов
-    prerequisites: |
-      открыть сайт hexlet-products-store.vercel.app/
-    test-data: |
-      сайт hexlet-products-store.vercel.app/
-    steps:
-      - в левом меню фильтра по производителю проверить корректность написания брендов
-    expected-result: |
-      в меню фильтра производителя отображает бренды корректно
-
-  - summary: |
-      Проверка дублей в назвинии брендов
-    requirement: |
-      Сравнить на дубликаты названия всех брендов
-    prerequisites: |
-      открыть сайт hexlet-products-store.vercel.app/
-    test-data: |
-      сайт hexlet-products-store.vercel.app/
-    steps:
-      - в левом меню фильтра по производителю проверить дубли написания брендов
-    expected-result: |
-      в меню фильтра производителя отображает бренды без повторений
 
   - summary: |
       Возможность поиска бренда, при вводе в строке поиска названия бренда
