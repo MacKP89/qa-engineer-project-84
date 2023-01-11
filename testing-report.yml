@@ -24,19 +24,19 @@
   status: pass
   
 - summary: |
-    Верстка отображается корректно на мобильном устройстве
+    Проверка отображения на мобильном устройстве
   status: fail
 
 - summary: |
-    Верстка отображается корректно в браузере Mozila Firefox
+    Проверка отображения в браузере Mozila Firefox
   status: pass
 
 - summary: |
-    Верстка отображается корректно в браузере Opera
+    Проверка отображения в браузере Opera
   status: pass
 
 - summary: |
-    Верстка отображается корректно в браузере Microsoft Edge
+    Проверка отображения в браузере Microsoft Edge
   status: pass
 
 - summary: |
